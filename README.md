@@ -35,11 +35,11 @@ purposes.
 
 ### Prerequisites
 
-1. [node](https://nodejs.org/en/)  👉👉  ``To Run The Application.``
+1. [node](https://nodejs.org/en/)    ``To Run The Application.``
 2. [docker](https://www.docker.com/products/docker-desktop/)
-   👉👉  ``Install Docker to Run Postgres Database with docker-compose.``
+   ``Install Docker to Run Postgres Database with docker-compose.``
 
-> Note: You can ignore docker installation and install postgresql on your machine.
+> Note: you can optionally run it locally on your machine or virtually with postgres installed
 
 ### Environment Setup
 
