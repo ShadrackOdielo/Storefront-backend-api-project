@@ -43,11 +43,8 @@ purposes.
 
 ### Environment Setup
 
-**Copy ``.env.exmample to .env`` and update the environment variables with your values**
+**Create  ``.env`` and update the environment variables with your values**
 
-```bash
-cp .env.example .env
-```
 
 **``.env`` Structure**
 
@@ -98,7 +95,7 @@ npm run migrate:up
 
 ### Running the App
 
-**Run the Application on development mode** 👉👉 App will run on [http://localhost:3000](http://localhost:3000)
+**Run the Application on development mode** App will run on [http://localhost:3000](http://localhost:3000) unless specified.
 
 ```bash
 npm run dev

@@ -53,11 +53,11 @@ Get Postman Documentation from [this link](https://documenter.getpostman.com/vie
   - Body 
     ```json
     {
-      "email": "MohamedFadl@mail.com",
-      "username": "FADL285",
-      "firstname": "Mohamed",
-      "lastname": "FADL",
-      "password": "my_password"
+      "email": "testmail@mail.com",
+      "username": "shad23o",
+      "firstname": "shadrack",
+      "lastname": "omondi",
+      "password": "password123"
     }
     ```
 - [ADDED] Authenticate
@@ -65,8 +65,8 @@ Get Postman Documentation from [this link](https://documenter.getpostman.com/vie
   - Body 
     ```json
     {
-      "email": "MohamedFadl@mail.com",
-      "password": "my_password"
+      "email": "testmail@mail.com",
+      "password": "my_password234"
     }
     ```
 - [ADDED] Update <sub>[token required]</sub>
@@ -74,8 +74,8 @@ Get Postman Documentation from [this link](https://documenter.getpostman.com/vie
   - Body ➡️ Any User Props can be on body
     ```json
     {
-      "email": "MohamedFadl@mail.com",
-      "lastname": "Aboul-Fadl"
+      "email": "testmail@mail.com",
+      "lastname": "omondi"
     }
     ```
 - [ADDED] Delete <sub>[token required]</sub>
@@ -110,7 +110,7 @@ Get Postman Documentation from [this link](https://documenter.getpostman.com/vie
       "status": "completed"
     }
     ```
-#### Order Products 💡 { ADDED } -- [ TOKEN Required ]
+#### Order Products  { ADDED } -- [ TOKEN Required ]
 - Get Order Products
   - GET `api/orders/:id/products`
 - GET Order Product
